@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="jquery" data-semver="2.1.4"
+            src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h2>Todo List</h2>
+    
+    <form id="add-todo">
+      <textarea class="input"></textarea>
+      <button class="input" type="submit">Add</button>
+    </form>
+    
+    <hr width="20%" align="left">
+    
+    <ul id="todo-items">
+      <li class="todo-item" style="display: none;">
+        <input type="checkbox" class="checkbox">
+        <span class="todo-text"></span>
+      </li>
+    </ul>
+
+  <hr width="20%" align="left">
+    <button id="clear-done">Clear Done</button>
+    
+
+  </body>
+
+</html>
